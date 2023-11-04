@@ -26,6 +26,8 @@ app.get('/', (req, res) => {
   return res.status(200).send({
     endpoint: {
       quake: `${BASE_URL}/quake`,
+      listQuake: `${BASE_URL}/list-quake`,
+      listLowQuake: `${BASE_URL}/list-low-quake`,
       weather: {
         province: {
           example: `${BASE_URL}/weather/jawa-barat`,
