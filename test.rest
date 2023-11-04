@@ -1,0 +1,14 @@
+
+GET http://localhost:3000/
+
+### Weather
+GET http://localhost:3000/weather/banten/serang
+
+### Earthquake
+GET http://localhost:3000/quake
+
+### Top 15 Earthquake 5.0+
+GET http://localhost:3000/list-quake
+
+### Newest 15 Earthquake
+GET http://localhost:3000/list-low-quake
